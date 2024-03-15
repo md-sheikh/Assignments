@@ -1,0 +1,23 @@
+# 20 string methods
+# Example of string methods
+str = "hello, world!"
+
+puts "Original string: #{str}"
+puts "Length of the string: #{str.length}"
+puts "Uppercase: #{str.upcase}"
+puts "Lowercase: #{str.downcase}"
+puts "Capitalized: #{str.capitalize}"
+puts "Reversed: #{str.reverse}"
+puts "Substring 'world': #{str.gsub('hello, ', '')}"
+puts "Strip whitespace: #{str.strip}"
+puts "Split: #{str.split(',').inspect}"
+puts "Concatenation: #{str.concat(' Welcome!')}"
+puts "Substring from index 3: #{str.slice(3..-1)}"
+puts "Insert at index 5: #{str.insert(5, ' dear')}"
+puts "Substitution: #{str.sub('hello', 'hi')}"
+puts "Check if empty? #{str.empty?}"
+puts "Check if includes 'world'? #{str.include?('world')}"
+puts "Check if starts with 'hello'? #{str.start_with?('hello')}"
+puts "Check if ends with 'world!'? #{str.end_with?('world!')}"
+puts "Index of 'world': #{str.index('world')}"
+puts "Character at index 7: #{str[7]}"
